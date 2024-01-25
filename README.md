@@ -104,8 +104,8 @@ This guide will help you to set up Llama-7B on your Google Cloud VM equipped wit
 
 sudo su -
 passwd
-passwd tharindu_sankalpa
-usermod -a -G sudo,adm tharindu_sankalpa
+passwd kaushikq_ravindran
+usermod -a -G sudo,adm kaushikq_ravindran
 
 ```
 
@@ -122,7 +122,7 @@ After making changes to the SSH configuration, connect to the server:
 
 ```bash
 
-ssh tharindu_sankalpa@YOUR_VM_IP_ADDRESS
+ssh kaushikq_ravindran@YOUR_VM_IP_ADDRESS
 
 ```
 
@@ -149,7 +149,7 @@ Output should be something like this.
 
 ```bash
 
-tharindu_sankalpa@llama2-model-endpoint2:~$ nvidia-smi
+kaushikq_ravindran@llama2-model-endpoint2:~$ nvidia-smi
 Tue Aug  8 16:45:14 2023
 +-----------------------------------------------------------------------------+
 | NVIDIA-SMI 525.125.06   Driver Version: 525.125.06   CUDA Version: 12.0     |
@@ -176,8 +176,6 @@ Tue Aug  8 16:45:14 2023
 |    0   N/A  N/A      1590      G   /usr/bin/gnome-shell               10MiB |
 |    1   N/A  N/A      1531      G   /usr/lib/xorg/Xorg                  4MiB |
 +-----------------------------------------------------------------------------+
-tharindu_sankalpa@llama2-model-endpoint2:~$
-tharindu_sankalpa@llama2-model-endpoint2:~$
 
 ```
 
@@ -195,7 +193,7 @@ Once the system is rebooted, check your VM's availability:
 ```bash
 
 ping YOUR_VM_IP_ADDRESS
-ssh tharindu_sankalpa@YOUR_VM_IP_ADDRESS
+ssh kaushikq_ravindran@YOUR_VM_IP_ADDRESS
 
 ```
 
@@ -301,7 +299,7 @@ python llama.py --model_name="meta-llama/Llama-2-7b-chat-hf"
 ```
 
 ```
-(llama2) tharindu_sankalpa@llama2-model-endpoint2:~/llama2_local$ python llama.py --model_name="meta-llama/Llama-2-7b-chat-hf"
+(llama2) kaushikq_ravindran@llama2-model-endpoint2:~/llama2_local$ python llama.py --model_name="meta-llama/Llama-2-7b-chat-hf"
 Downloading (…)lve/main/config.json: 100%|███████████████████████| 614/614 [00:00<00:00, 93.6kB/s]
 Downloading (…)fetensors.index.json: 100%|███████████████████| 26.8k/26.8k [00:00<00:00, 4.50MB/s]
 Downloading (…)of-00002.safetensors: 100%|████████████████████| 9.98G/9.98G [00:29<00:00, 344MB/s]
