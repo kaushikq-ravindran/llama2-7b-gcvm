@@ -330,19 +330,3 @@ Below are the prompts used for evaluation:
 4. What steps can I take to develop my character ethics in order to achieve enduring success?
 5. How can I introspectively identify and understand my personal values?
 6. Could you provide a structured questionnaire that aids in the identification and reflection of one's core values?
-
-## Model Responses
-
-### GPT-4 Responses
-https://chat.openai.com/share/6c9deabe-e086-4095-b5f7-687b6c6350a1
-
-### GPT-3.5 Responses
-https://chat.openai.com/share/54e3e52a-4a97-4438-bda8-d33bc2d73ffd
-
-### Llama2-70B Responses
-https://lizard-chokeberry-f8e.notion.site/Model-Evaluation-Llama2-7B-Responses-for-Evaluation-Prompts-a3052fa60cd543398dd01b60f1727dd4?pvs=4
-
-## Screen shoots
-
-![Alt text](images/UI.png)
-![Alt text](images/backend.png)
